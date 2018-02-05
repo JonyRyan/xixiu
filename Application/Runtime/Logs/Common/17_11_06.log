@@ -1,0 +1,348 @@
+[ 2017-11-06T09:59:15+08:00 ] ::1 /ThinkPHP/Application/Water/View/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000977s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+ERR: 无法加载模块:Application
+
+[ 2017-11-06T09:59:37+08:00 ] ::1 /ThinkPHP/Application/Water/View/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+ERR: 无法加载模块:Application
+
+[ 2017-11-06T10:00:02+08:00 ] ::1 /ThinkPHP/Application/Water/View/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+ERR: 无法加载模块:Application
+
+[ 2017-11-06T10:19:13+08:00 ] ::1 /ThinkPHP/Application/Water/View/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+ERR: 无法加载模块:Application
+
+[ 2017-11-06T10:20:19+08:00 ] ::1 /ThinkPHP/Application/Water/View/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+ERR: 无法加载模块:Application
+
+[ 2017-11-06T10:21:34+08:00 ] ::1 /ThinkPHP/Application/Water/View/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+ERR: 无法加载模块:Application
+
+[ 2017-11-06T10:21:45+08:00 ] ::1 /ThinkPHP/Application/Water/View/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+ERR: 无法加载模块:Application
+
+[ 2017-11-06T10:32:27+08:00 ] ::1 /ThinkPHP/Application/Water/View/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+ERR: 无法加载模块:Application
+
+[ 2017-11-06T10:33:25+08:00 ] ::1 /ThinkPHP/Application/Water/View/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+ERR: 无法加载模块:Application
+
+[ 2017-11-06T10:33:40+08:00 ] ::1 /ThinkPHP/Application/Water/View/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+ERR: 无法加载模块:Application
+
+[ 2017-11-06T15:08:11+08:00 ] ::1 /ThinkPHP/Application/Water/View/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Application
+
+[ 2017-11-06T15:12:24+08:00 ] ::1 /ThinkPHP/Application/Water/View/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Application
+
+[ 2017-11-06T15:12:38+08:00 ] ::1 /ThinkPHP/Application/Water/View/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+ERR: 无法加载模块:Application
+
+[ 2017-11-06T15:13:10+08:00 ] ::1 /ThinkPHP/Application/Water/View/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+ERR: 无法加载模块:Application
+
+[ 2017-11-06T15:14:39+08:00 ] ::1 /ThinkPHP/Application/Water/View/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+ERR: 无法加载模块:Application
+
+[ 2017-11-06T15:14:52+08:00 ] ::1 /ThinkPHP/Application/Water/View/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+ERR: 无法加载模块:Application
+
+[ 2017-11-06T15:15:37+08:00 ] ::1 /ThinkPHP/Application/Water/View/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+ERR: 无法加载模块:Application
+
+[ 2017-11-06T15:16:16+08:00 ] ::1 /ThinkPHP/Application/Water/View/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+ERR: 无法加载模块:Application
+
+[ 2017-11-06T15:18:01+08:00 ] ::1 /ThinkPHP/Application/Water/View/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+ERR: 无法加载模块:Application
+
+[ 2017-11-06T15:19:18+08:00 ] ::1 /ThinkPHP/Application/Water/View/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+ERR: 无法加载模块:Application
+
+[ 2017-11-06T16:50:52+08:00 ] ::1 /ThinkPHP/Application/Water/View/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+ERR: 无法加载模块:Application
+
+[ 2017-11-06T17:07:30+08:00 ] ::1 /ThinkPHP/Application/Water/View/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+ERR: 无法加载模块:Application
+
+[ 2017-11-06T17:11:31+08:00 ] ::1 /ThinkPHP/Application/Water/View/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+ERR: 无法加载模块:Application
+
+[ 2017-11-06T17:12:25+08:00 ] ::1 /ThinkPHP/Application/Water/View/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+ERR: 无法加载模块:Application
+
+[ 2017-11-06T17:13:00+08:00 ] ::1 /ThinkPHP/Application/Water/View/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+ERR: 无法加载模块:Application
+
+[ 2017-11-06T17:13:02+08:00 ] ::1 /ThinkPHP/Application/Water/View/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+ERR: 无法加载模块:Application
+
+[ 2017-11-06T17:13:13+08:00 ] ::1 /ThinkPHP/Application/Water/View/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+ERR: 无法加载模块:Application
+
+[ 2017-11-06T17:13:53+08:00 ] ::1 /ThinkPHP/Application/Water/View/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+ERR: 无法加载模块:Application
+
+[ 2017-11-06T17:14:04+08:00 ] ::1 /ThinkPHP/Application/Water/View/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+ERR: 无法加载模块:Application
+
+[ 2017-11-06T17:14:28+08:00 ] ::1 /ThinkPHP/Application/Water/View/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+ERR: 无法加载模块:Application
+
+[ 2017-11-06T17:15:11+08:00 ] ::1 /ThinkPHP/Application/Water/View/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+ERR: 无法加载模块:Application
+
+[ 2017-11-06T17:16:15+08:00 ] ::1 /ThinkPHP/Application/Water/View/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001954s ]
+ERR: 无法加载模块:Application
+
+[ 2017-11-06T17:16:24+08:00 ] ::1 /ThinkPHP/Application/Water/View/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+ERR: 无法加载模块:Application
+
+[ 2017-11-06T17:16:45+08:00 ] ::1 /ThinkPHP/Application/Water/View/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+ERR: 无法加载模块:Application
+
+[ 2017-11-06T17:17:15+08:00 ] ::1 /ThinkPHP/Application/Water/View/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000977s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+ERR: 无法加载模块:Application
+
+[ 2017-11-06T17:17:42+08:00 ] ::1 /ThinkPHP/Application/Water/View/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+ERR: 无法加载模块:Application
+
+[ 2017-11-06T17:17:45+08:00 ] ::1 /ThinkPHP/Application/Water/View/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+ERR: 无法加载模块:Application
+
+[ 2017-11-06T17:18:28+08:00 ] ::1 /ThinkPHP/Application/Water/View/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+ERR: 无法加载模块:Application
+
+[ 2017-11-06T17:18:29+08:00 ] ::1 /ThinkPHP/Application/Water/View/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+ERR: 无法加载模块:Application
+
+[ 2017-11-06T17:18:32+08:00 ] ::1 /ThinkPHP/Application/Water/View/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+ERR: 无法加载模块:Application
+
+[ 2017-11-06T17:18:53+08:00 ] ::1 /ThinkPHP/Application/Water/View/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+ERR: 无法加载模块:Application
+
+[ 2017-11-06T17:18:55+08:00 ] ::1 /ThinkPHP/Application/Water/View/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+ERR: 无法加载模块:Application
+
+[ 2017-11-06T17:18:57+08:00 ] ::1 /ThinkPHP/Application/Water/View/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+ERR: 无法加载模块:Application
+
+[ 2017-11-06T17:19:00+08:00 ] ::1 /ThinkPHP/Application/Water/View/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+ERR: 无法加载模块:Application
+
+[ 2017-11-06T17:19:13+08:00 ] ::1 /ThinkPHP/Application/Water/View/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+ERR: 无法加载模块:Application
+
+[ 2017-11-06T17:19:21+08:00 ] ::1 /ThinkPHP/Application/Water/View/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+ERR: 无法加载模块:Application
+
+[ 2017-11-06T17:19:24+08:00 ] ::1 /ThinkPHP/Application/Water/View/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+ERR: 无法加载模块:Application
+
+[ 2017-11-06T17:46:05+08:00 ] ::1 /ThinkPHP/Application/Water/View/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+ERR: 无法加载模块:Application
+
+[ 2017-11-06T17:49:41+08:00 ] ::1 /ThinkPHP/Application/Water/View/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+ERR: 无法加载模块:Application
+
+[ 2017-11-06T17:50:19+08:00 ] ::1 /ThinkPHP/Application/Water/View/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Application
+
+[ 2017-11-06T17:51:12+08:00 ] ::1 /ThinkPHP/Application/Water/View/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+ERR: 无法加载模块:Application
+
+[ 2017-11-06T17:51:15+08:00 ] ::1 /ThinkPHP/Application/Water/View/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000977s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+ERR: 无法加载模块:Application
+
+[ 2017-11-06T17:51:45+08:00 ] ::1 /ThinkPHP/Application/Water/View/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+ERR: 无法加载模块:Application
+
+[ 2017-11-06T17:53:43+08:00 ] ::1 /ThinkPHP/Application/Water/View/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+ERR: 无法加载模块:Application
+
+[ 2017-11-06T17:54:01+08:00 ] ::1 /ThinkPHP/Application/Water/View/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+ERR: 无法加载模块:Application
+
+[ 2017-11-06T17:55:36+08:00 ] ::1 /ThinkPHP/Application/Water/View/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Application
+
+[ 2017-11-06T17:56:14+08:00 ] ::1 /ThinkPHP/Application/Water/View/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+ERR: 无法加载模块:Application
+
+[ 2017-11-06T17:57:23+08:00 ] ::1 /ThinkPHP/Application/Water/View/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+ERR: 无法加载模块:Application
+

@@ -1,0 +1,90 @@
+[ 2018-01-31T15:37:37+08:00 ] ::1 /Xixiu/Application/Home/Public/js/echarts.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+ERR: 无法加载模块:Application
+
+[ 2018-01-31T15:37:37+08:00 ] ::1 /Xixiu/Application/Home/Public/css/data_device.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+ERR: 无法加载模块:Application
+
+[ 2018-01-31T15:37:37+08:00 ] ::1 /Xixiu/Application/Home/Public/js/data_device.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+ERR: 无法加载模块:Application
+
+[ 2018-01-31T15:37:37+08:00 ] ::1 /Xixiu/Application/Home/Public/js/echarts.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+ERR: 无法加载模块:Application
+
+[ 2018-01-31T15:37:38+08:00 ] ::1 /Xixiu/Application/Home/Public/js/data_device.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+ERR: 无法加载模块:Application
+
+[ 2018-01-31T15:42:41+08:00 ] ::1 /Xixiu/Application/Home/Public/js/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+ERR: 无法加载模块:Application
+
+[ 2018-01-31T15:42:52+08:00 ] ::1 /Xixiu/Application/Home/Public/js/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002930s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003906s ]
+ERR: 无法加载模块:Application
+
+[ 2018-01-31T16:02:21+08:00 ] ::1 /Xixiu/Application/Home/View/Public/build/css/nprogress.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+ERR: 无法加载模块:Application
+
+[ 2018-01-31T16:05:36+08:00 ] ::1 /Xixiu/Application/Home/View/Public/build/css/nprogress.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Application
+
+[ 2018-01-31T16:05:38+08:00 ] ::1 /Xixiu/Application/Home/View/Public/build/css/nprogress.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+ERR: 无法加载模块:Application
+
+[ 2018-01-31T16:05:39+08:00 ] ::1 /Xixiu/Application/Home/View/Public/build/css/nprogress.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+ERR: 无法加载模块:Application
+
+[ 2018-01-31T16:05:42+08:00 ] ::1 /Xixiu/Application/Home/View/Public/build/css/nprogress.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+ERR: 无法加载模块:Application
+
+[ 2018-01-31T16:06:32+08:00 ] ::1 /Xixiu/Application/Home/Public/build/css/nprogress.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000976s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+ERR: 无法加载模块:Application
+
+[ 2018-01-31T16:06:38+08:00 ] ::1 /Xixiu/Application/Home/Public/build/css/nprogress.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+ERR: 无法加载模块:Application
+
+[ 2018-01-31T17:45:20+08:00 ] ::1 /Xixiu/Application/Home/Public/Pump/Tabapp.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002930s ]
+ERR: 无法加载模块:Application
+

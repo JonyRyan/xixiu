@@ -1,0 +1,28 @@
+@charset "utf-8";
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    min-height: 100%;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/* 设置左边距 用于第1.2个选择按钮之间 */
+.set-mgn{
+    margin-left:2px;
+}
+/* 设置左边距 用于第2.3个选择按钮之间 */
+.set-mgn2{
+    margin-left:4px;
+}
+/* 设置宽度最大 用于选择按钮-铺满整行 */
+.inp-fluid{
+    width: 100%;
+}

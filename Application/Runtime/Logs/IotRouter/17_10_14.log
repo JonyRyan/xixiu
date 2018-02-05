@@ -1,0 +1,532 @@
+[ 2017-10-14T17:23:25+08:00 ] ::1 /ThinkPHP/index.php/IotRouter/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000932s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003267s ]
+
+[ 2017-10-14T17:23:25+08:00 ] ::1 /ThinkPHP/index.php/IotRouter/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000908s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000914s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000407s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000611s ]
+NOTIC: [8] Undefined variable: false_pwd C:\wamp64\www\ThinkPHP\Application\Runtime\Cache\IotRouter\bc6eadddea39228354cfe933e2f681d9.php 第 85 行.
+NOTIC: [8] Undefined variable: false_verify C:\wamp64\www\ThinkPHP\Application\Runtime\Cache\IotRouter\bc6eadddea39228354cfe933e2f681d9.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024183s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024385s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000868s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001067s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001473s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001693s ]
+
+[ 2017-10-14T17:23:25+08:00 ] ::1 /ThinkPHP/index.php/IotRouter/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000998s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001528s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001550s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002044s ]
+
+[ 2017-10-14T17:23:32+08:00 ] ::1 /ThinkPHP/index.php/IotRouter/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000881s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001162s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0606s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'admin' AND `password` = '9cef9fd3b64148135c8b85bd3d4da668'  [ RunTime:0.0588s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000185s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000398s ]
+NOTIC: [8] Undefined variable: false_verify C:\wamp64\www\ThinkPHP\Application\Runtime\Cache\IotRouter\bc6eadddea39228354cfe933e2f681d9.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012132s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012353s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000754s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000636s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000810s ]
+
+[ 2017-10-14T17:23:32+08:00 ] ::1 /ThinkPHP/index.php/IotRouter/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000679s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001119s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001439s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005172s ]
+
+[ 2017-10-14T17:23:37+08:00 ] ::1 /ThinkPHP/index.php/IotRouter/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000679s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000806s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0561s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'admin' AND `password` = 'c56d0e9a7ccec67b4ea131655038d604'  [ RunTime:0.0562s ]
+
+[ 2017-10-14T17:23:38+08:00 ] ::1 /ThinkPHP/index.php/IotRouter/Home/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000813s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000244s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000440s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029789s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000636s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001352s ]
+
+[ 2017-10-14T17:23:38+08:00 ] ::1 /ThinkPHP/index.php/IotRouter/Device/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000850s ]
+SQL: SHOW COLUMNS FROM `device` [ RunTime:0.0596s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `device` LIMIT 1   [ RunTime:0.0584s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000452s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000676s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039960s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040161s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000733s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000715s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000898s ]
+
+[ 2017-10-14T17:23:39+08:00 ] ::1 /ThinkPHP/index.php/IotRouter/Type/query.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000802s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000870s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001084s ]
+SQL: SHOW COLUMNS FROM `type_device_model` [ RunTime:0.0455s ]
+SQL: SELECT * FROM `type_device_model` ORDER BY type_word  [ RunTime:0.0457s ]
+
+[ 2017-10-14T17:23:40+08:00 ] ::1 /ThinkPHP/index.php/IotRouter/Type/query.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001498s ]
+SQL: SHOW COLUMNS FROM `type_device_runstate` [ RunTime:0.0580s ]
+SQL: SELECT * FROM `type_device_runstate` ORDER BY type_word  [ RunTime:0.0581s ]
+
+[ 2017-10-14T17:23:40+08:00 ] ::1 /ThinkPHP/index.php/IotRouter/Type/query.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001567s ]
+SQL: SHOW COLUMNS FROM `type_device` [ RunTime:0.0610s ]
+SQL: SELECT * FROM `type_device` ORDER BY type_word  [ RunTime:0.0611s ]
+
+[ 2017-10-14T17:23:40+08:00 ] ::1 /ThinkPHP/index.php/IotRouter/Device/query.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004098s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001790s ]
+SQL: SHOW COLUMNS FROM `device` [ RunTime:0.0549s ]
+SQL: SELECT * FROM `device` LIMIT 0,10   [ RunTime:0.0546s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `device` LIMIT 1   [ RunTime:0.0532s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `device` LIMIT 1   [ RunTime:0.0533s ]
+
+[ 2017-10-14T17:23:41+08:00 ] ::1 /ThinkPHP/index.php/IotRouter/Device/distribution_map.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000805s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001265s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000302s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000518s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014677s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014902s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000773s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000955s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001315s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001562s ]
+
+[ 2017-10-14T17:23:42+08:00 ] ::1 /ThinkPHP/index.php/IotRouter/Device/queryDeviceCoordinate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000796s ]
+SQL: SHOW COLUMNS FROM `device` [ RunTime:0.0616s ]
+SQL: SELECT `dev_id`,concat(dev_name,'--') AS `value`,`location` FROM `device` WHERE `runstate` = 1  [ RunTime:0.0610s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `device` WHERE `runstate` = 1 LIMIT 1   [ RunTime:0.0600s ]
+SQL: SELECT `dev_id`,concat(dev_name,'--') AS `value`,`location` FROM `device` WHERE `runstate` = 2  [ RunTime:0.0602s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `device` WHERE `runstate` = 2 LIMIT 1   [ RunTime:0.0605s ]
+
+[ 2017-10-14T17:25:05+08:00 ] ::1 /ThinkPHP/index.php/IotRouter/Device/distribution_map.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001644s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001197s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000353s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000599s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017841s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018158s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001005s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001224s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003029s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003286s ]
+
+[ 2017-10-14T17:25:06+08:00 ] ::1 /ThinkPHP/index.php/IotRouter/Device/queryDeviceCoordinate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000872s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000998s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001232s ]
+SQL: SHOW COLUMNS FROM `device` [ RunTime:0.0498s ]
+SQL: SELECT `dev_id`,concat(dev_name,'--') AS `value`,`location` FROM `device` WHERE `runstate` = 1  [ RunTime:0.0497s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `device` WHERE `runstate` = 1 LIMIT 1   [ RunTime:0.0492s ]
+SQL: SELECT `dev_id`,concat(dev_name,'--') AS `value`,`location` FROM `device` WHERE `runstate` = 2  [ RunTime:0.0491s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `device` WHERE `runstate` = 2 LIMIT 1   [ RunTime:0.0488s ]
+
+[ 2017-10-14T17:25:07+08:00 ] ::1 /ThinkPHP/index.php/IotRouter/Device/distribution_map.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000979s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001101s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000307s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000518s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014980s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015240s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001548s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001833s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002014s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002313s ]
+
+[ 2017-10-14T17:25:08+08:00 ] ::1 /ThinkPHP/index.php/IotRouter/Device/queryDeviceCoordinate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001041s ]
+SQL: SHOW COLUMNS FROM `device` [ RunTime:0.0528s ]
+SQL: SELECT `dev_id`,concat(dev_name,'--') AS `value`,`location` FROM `device` WHERE `runstate` = 1  [ RunTime:0.0528s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `device` WHERE `runstate` = 1 LIMIT 1   [ RunTime:0.0520s ]
+SQL: SELECT `dev_id`,concat(dev_name,'--') AS `value`,`location` FROM `device` WHERE `runstate` = 2  [ RunTime:0.0522s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `device` WHERE `runstate` = 2 LIMIT 1   [ RunTime:0.0520s ]
+
+[ 2017-10-14T17:25:54+08:00 ] ::1 /ThinkPHP/index.php/IotRouter/Device/distribution_map.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001034s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000304s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000519s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012504s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012722s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000696s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000884s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001060s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001260s ]
+
+[ 2017-10-14T17:25:55+08:00 ] ::1 /ThinkPHP/index.php/IotRouter/Device/queryDeviceCoordinate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000793s ]
+SQL: SHOW COLUMNS FROM `device` [ RunTime:0.0530s ]
+SQL: SELECT `dev_id`,concat(dev_name,'--') AS `value`,`location` FROM `device` WHERE `runstate` = 1  [ RunTime:0.0522s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `device` WHERE `runstate` = 1 LIMIT 1   [ RunTime:0.0520s ]
+SQL: SELECT `dev_id`,concat(dev_name,'--') AS `value`,`location` FROM `device` WHERE `runstate` = 2  [ RunTime:0.0517s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `device` WHERE `runstate` = 2 LIMIT 1   [ RunTime:0.0516s ]
+
+[ 2017-10-14T17:28:05+08:00 ] ::1 /ThinkPHP/index.php/IotRouter/Device/distribution_map.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000647s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000332s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000549s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012859s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013067s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000710s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000875s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001472s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001744s ]
+
+[ 2017-10-14T17:28:06+08:00 ] ::1 /ThinkPHP/index.php/IotRouter/Device/queryDeviceCoordinate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000881s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001092s ]
+SQL: SHOW COLUMNS FROM `device` [ RunTime:0.0564s ]
+SQL: SELECT `dev_id`,concat(dev_name,'--') AS `value`,`location` FROM `device` WHERE `runstate` = 1  [ RunTime:0.0558s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `device` WHERE `runstate` = 1 LIMIT 1   [ RunTime:0.0555s ]
+SQL: SELECT `dev_id`,concat(dev_name,'--') AS `value`,`location` FROM `device` WHERE `runstate` = 2  [ RunTime:0.0559s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `device` WHERE `runstate` = 2 LIMIT 1   [ RunTime:0.0555s ]
+
+[ 2017-10-14T17:28:13+08:00 ] ::1 /ThinkPHP/index.php/IotRouter/Device/distribution_map.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000903s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000906s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000323s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000524s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011825s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012043s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000826s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001048s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001236s ]
+
+[ 2017-10-14T17:28:14+08:00 ] ::1 /ThinkPHP/index.php/IotRouter/Device/queryDeviceCoordinate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000819s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000832s ]
+SQL: SHOW COLUMNS FROM `device` [ RunTime:0.0575s ]
+SQL: SELECT `dev_id`,concat(dev_name,'--') AS `value`,`location` FROM `device` WHERE `runstate` = 1  [ RunTime:0.0567s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `device` WHERE `runstate` = 1 LIMIT 1   [ RunTime:0.0563s ]
+SQL: SELECT `dev_id`,concat(dev_name,'--') AS `value`,`location` FROM `device` WHERE `runstate` = 2  [ RunTime:0.0560s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `device` WHERE `runstate` = 2 LIMIT 1   [ RunTime:0.0561s ]
+
+[ 2017-10-14T17:29:34+08:00 ] ::1 /ThinkPHP/index.php/IotRouter/Device/distribution_map.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000139s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000685s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000986s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001219s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000317s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000519s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012223s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012449s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000741s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000919s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001280s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001490s ]
+
+[ 2017-10-14T17:29:35+08:00 ] ::1 /ThinkPHP/index.php/IotRouter/Device/queryDeviceCoordinate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000701s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001010s ]
+SQL: SHOW COLUMNS FROM `device` [ RunTime:0.0551s ]
+SQL: SELECT `dev_id`,concat(dev_name,'--') AS `value`,`location` FROM `device` WHERE `runstate` = 1  [ RunTime:0.0543s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `device` WHERE `runstate` = 1 LIMIT 1   [ RunTime:0.0540s ]
+SQL: SELECT `dev_id`,concat(dev_name,'--') AS `value`,`location` FROM `device` WHERE `runstate` = 2  [ RunTime:0.0524s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `device` WHERE `runstate` = 2 LIMIT 1   [ RunTime:0.0538s ]
+
+[ 2017-10-14T17:30:49+08:00 ] ::1 /ThinkPHP/index.php/IotRouter/Device/distribution_map.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000323s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000535s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013112s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013354s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000970s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001066s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001372s ]
+
+[ 2017-10-14T17:30:50+08:00 ] ::1 /ThinkPHP/index.php/IotRouter/Device/queryDeviceCoordinate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000914s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001017s ]
+SQL: SHOW COLUMNS FROM `device` [ RunTime:0.0483s ]
+SQL: SELECT `dev_id`,concat(dev_name,'--') AS `value`,`location` FROM `device` WHERE `runstate` = 1  [ RunTime:0.0484s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `device` WHERE `runstate` = 1 LIMIT 1   [ RunTime:0.0480s ]
+SQL: SELECT `dev_id`,concat(dev_name,'--') AS `value`,`location` FROM `device` WHERE `runstate` = 2  [ RunTime:0.0479s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `device` WHERE `runstate` = 2 LIMIT 1   [ RunTime:0.0472s ]
+
+[ 2017-10-14T17:32:04+08:00 ] ::1 /ThinkPHP/index.php/IotRouter/Device/distribution_map.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000629s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000806s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000317s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000557s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012530s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012750s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000815s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000991s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001152s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001366s ]
+
+[ 2017-10-14T17:32:05+08:00 ] ::1 /ThinkPHP/index.php/IotRouter/Device/queryDeviceCoordinate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000870s ]
+SQL: SHOW COLUMNS FROM `device` [ RunTime:0.0550s ]
+SQL: SELECT `dev_id`,concat(dev_name,'--') AS `value`,`location` FROM `device` WHERE `runstate` = 1  [ RunTime:0.0542s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `device` WHERE `runstate` = 1 LIMIT 1   [ RunTime:0.0543s ]
+SQL: SELECT `dev_id`,concat(dev_name,'--') AS `value`,`location` FROM `device` WHERE `runstate` = 2  [ RunTime:0.0540s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `device` WHERE `runstate` = 2 LIMIT 1   [ RunTime:0.0536s ]
+
+[ 2017-10-14T17:33:12+08:00 ] ::1 /ThinkPHP/index.php/IotRouter/Device/distribution_map.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001494s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000669s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019765s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020036s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001022s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002267s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004313s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004773s ]
+
+[ 2017-10-14T17:33:13+08:00 ] ::1 /ThinkPHP/index.php/IotRouter/Device/queryDeviceCoordinate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000955s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001071s ]
+SQL: SHOW COLUMNS FROM `device` [ RunTime:0.0574s ]
+SQL: SELECT `dev_id`,concat(dev_name,'--') AS `value`,`location` FROM `device` WHERE `runstate` = 1  [ RunTime:0.0570s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `device` WHERE `runstate` = 1 LIMIT 1   [ RunTime:0.0566s ]
+SQL: SELECT `dev_id`,concat(dev_name,'--') AS `value`,`location` FROM `device` WHERE `runstate` = 2  [ RunTime:0.0567s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `device` WHERE `runstate` = 2 LIMIT 1   [ RunTime:0.0567s ]
+
+[ 2017-10-14T17:34:14+08:00 ] ::1 /ThinkPHP/index.php/IotRouter/Device/distribution_map.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000834s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000386s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000665s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012473s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012685s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000630s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000824s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001213s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001417s ]
+
+[ 2017-10-14T17:34:15+08:00 ] ::1 /ThinkPHP/index.php/IotRouter/Device/queryDeviceCoordinate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000761s ]
+SQL: SHOW COLUMNS FROM `device` [ RunTime:0.0558s ]
+SQL: SELECT `dev_id`,concat(dev_name,'--') AS `value`,`location` FROM `device` WHERE `runstate` = 1  [ RunTime:0.0550s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `device` WHERE `runstate` = 1 LIMIT 1   [ RunTime:0.0549s ]
+SQL: SELECT `dev_id`,concat(dev_name,'--') AS `value`,`location` FROM `device` WHERE `runstate` = 2  [ RunTime:0.0548s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `device` WHERE `runstate` = 2 LIMIT 1   [ RunTime:0.0551s ]
+

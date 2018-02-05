@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>数据异常报警</title>
+    <link rel="stylesheet" href="__LAYUI__/css/layui.css">
+</head>
+<body>
+<div class="layui-row-fluid" style="margin: auto 15px">
+    <fieldset class="layui-elem-field">
+        <legend>报警参数</legend>
+        <div class="layui-col-xs12">
+            <button class="layui-btn" onclick="tabReason(this);" style="margin: 10px;">进厂流量</button>
+            <button class="layui-btn" onclick="tabReason(this);" style="margin: 10px;">出厂流量</button>
+            <button class="layui-btn" onclick="tabReason(this);" style="margin: 10px;">出厂压力</button>
+            <button class="layui-btn" onclick="tabReason(this);" style="margin: 10px;">蓄水池水位</button>
+            <button class="layui-btn" onclick="tabReason(this);" style="margin: 10px;">清水池水位</button>
+        </div>
+    </fieldset>
+    <fieldset class="layui-elem-field">
+        <legend>数据异常详情</legend>
+        <div class="layui-col-xs12" id="table">
+            <table class="layui-table">
+                <colgroup>
+                    <col width="150">
+                    <col width="200">
+                    <col>
+                </colgroup>
+                <thead>
+                <tr>
+                    <th>监测点名称</th>
+                    <th>报警原因</th>
+                    <th>报警时刻数据</th>
+                    <th>报警时间</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td class="reason">进厂流量</td>
+                    <td>超过进厂流量上限</td>
+                    <td> 1.4 m³/s</td>
+                    <td>2018-1-1</td>
+                </tr>
+                <tr>
+                    <td class="reason">进厂流量</td>
+                    <td>超过进厂流量下限</td>
+                    <td> 0.2 m³/s</td>
+                    <td>2018-1-2</td>
+                </tr>
+                <tr>
+                    <td class="reason">出厂压力</td>
+                    <td>超过出厂压力下限</td>
+                    <td> 0.3 m³/s</td>
+                    <td>2018-1-3</td>
+                </tr>
+                <tr>
+                    <td class="reason">清水池水位</td>
+                    <td>超过清水池水位下限</td>
+                    <td> 2.1 m</td>
+                    <td>2018-1-4</td>
+                </tr>
+                <tr>
+                    <td class="reason">清水池水位</td>
+                    <td>超过清水池水位下限</td>
+                    <td> 1.8 m</td>
+                    <td>2018-1-5</td>
+                </tr>
+                <tr>
+                    <td class="reason">清水池水位</td>
+                    <td>超过清水池水位上限</td>
+                    <td> 5 m</td>
+                    <td>2018-1-7</td>
+                </tr>
+                <tr>
+                    <td class="reason">蓄水池水位</td>
+                    <td>超过蓄水池水位上限</td>
+                    <td> 10 m</td>
+                    <td>2018-1-7</td>
+                </tr>
+                <tr>
+                    <td class="reason">蓄水池水位</td>
+                    <td>超过蓄水池水位下限</td>
+                    <td> 2 m</td>
+                    <td>2018-1-8</td>
+                </tr>
+                <tr>
+                    <td class="reason">出厂流量</td>
+                    <td>超过出厂流量上限</td>
+                    <td> 1.6 m³/s</td>
+                    <td>2018-1-10</td>
+                </tr>
+                <tr>
+                    <td class="reason">出厂流量</td>
+                    <td>超过出厂流量下限</td>
+                    <td> 4.5 m³/s</td>
+                    <td>2018-1-12</td>
+                </tr>
+                <tr>
+                    <td class="reason">进厂流量</td>
+                    <td>超过进厂流量下限</td>
+                    <td> 5.1 m³/s</td>
+                    <td>2018-1-15</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </fieldset>
+</div>
+<script src="__LAYUI__/layui.js"></script>
+<script src="__PLUG__/jquery.js"></script>
+<script type="text/javascript">
+    layui.use('layer', function () {
+        var layer = layui.layer;
+        $ = layui.jquery;
+    });
+
+    function tabReason(obj) {
+        var text = $(obj).html();
+        $('#table').find('tbody .reason').each(function () {
+            var tdStr = $(this).html();
+            if (tdStr != text) {
+                $(this).parents('tr').css('display', 'none');
+            }
+        });
+
+        var ii = layer.load();
+        layer.open({
+            type: 1,//1（页面层）2（iframe层）3（加载层）
+            title: "查看设备",
+            maxmin: true,
+            area: ['600px', '400px'],
+            shadeClose: true,//点击遮罩关闭
+            content: $('#table'),///project/Shui/Alarm/test.html
+            success: function (layero, index) {
+                layer.close(ii);
+                //console.log(layero, index);//回调函数
+            },
+            cancel: function () {
+                $('#table').find('tbody tr').each(function () {
+                    $(this).css('display', '');
+                });
+            }
+        })
+    }
+
+    //var index = parent.layer.getFrameIndex(window.name); //先得到当前iframe层的索引
+    //parent.layer.close(index);
+</script>
+</body>
+</html>

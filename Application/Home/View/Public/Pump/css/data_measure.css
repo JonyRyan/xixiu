@@ -1,0 +1,38 @@
+/*测量数据——水池水位图表*/
+.pool_level{
+	width: 95%;
+	height: 197px;
+	}
+	/*缓冲水池div大小*/
+	#pool1{
+		width: 100%;
+		height: 120%;
+	}
+	/*原水池div大小*/
+	#pool2{
+		width: 100%;
+		height: 120%;
+	}
+	/*污水池div大小*/
+	#pool3{
+		width: 100%;
+		height: 120%;
+	}
+/*测量数据——出水压力图表div大小*/
+.water_pressure{
+	width: 95%;
+	height: 400px;
+	}
+	#pressure1{
+		width: 100%;
+		height: 100%;
+	}
+/*测量数据——出水压力图表div大小*/
+.water_flow{
+	width: 95%;
+	height: 400px;
+	}
+	#flow1{
+		width: 100%;
+		height: 100%;
+	}

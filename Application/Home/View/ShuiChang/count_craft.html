@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>工艺参数数据</title>
+    <link rel="stylesheet" href="__LAYUI__/css/layui.css">
+    <link rel="stylesheet" href="__ShuiCSS__/charts.css">
+</head>
+<body>
+<!--<div class="layui-container"></div>-->
+<div class="layui-row-fluid">
+    <fieldset class="layui-elem-field" style="margin: 20px">
+        <legend>进厂流量</legend>
+        <div class="layui-col-xs12">
+            <div id="flow_in"></div>
+        </div>
+    </fieldset>
+    <fieldset class="layui-elem-field" style="margin: 20px">
+        <legend>出厂流量</legend>
+        <div class="layui-col-xs12">
+            <div id="flow_out"></div>
+        </div>
+    </fieldset>
+    <div class="layui-col-xs12">
+        <div id="pressure"></div>
+    </div>
+    <div class="layui-col-xs12">
+        <div id="water1"></div>
+    </div>
+    <div class="layui-col-xs12">
+        <div id="water2"></div>
+    </div>
+    <div class="layui-col-xs12">
+        <div id="water_quality"></div>
+    </div>
+</div>
+
+<script src="__LAYUI__/layui.js"></script>
+<script src="__PLUG__/jquery.js"></script>
+<script src="__PLUG__/echarts.min.js"></script>
+<script src="__ShuiJS__/flow_in.js"></script>
+<script src="__ShuiJS__/flow_out.js"></script>
+</body>
+</html>

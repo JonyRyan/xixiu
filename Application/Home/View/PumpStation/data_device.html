@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="__PumpCSS__/data_device.css">
+    <link rel="stylesheet" href="__PumpCSS__/common.css">
+    <link rel="stylesheet" href="__LAYUI__/css/layui.css">
+    <title>设备数据报表</title>
+</head>
+<body>
+<div class="layui-container">
+    <br/>
+    <!-- 水泵/阀门选择按钮 -->
+    <div class="layui-row">
+        <div class="layui-col-xs6">
+            <button class="layui-btn layui-btn-fluid " onclick="showPump()">水泵</button>
+        </div>
+        <div class="layui-col-xs6">
+            <button class="set-mgn layui-btn layui-btn-fluid" onclick="showValve()">阀门</button>
+        </div>
+    </div>
+    <hr><!-- 分割线 -->
+    <!-- 水泵模块（id用于按钮选择） -->
+    <div class="layui-row" id="data_pump">
+        <div class="layui-col-xs7">  <!-- 水泵图表 -->
+            <fieldset class="layui-elem-field"> <!--边框-->
+                <legend>1#水泵启停图表</legend> <!-- 标题 -->
+                <div class="pump_status layui-field-box" id="pump_status1"><!-- 图表div -->
+                </div>
+            </fieldset>
+        </div>
+        <div class="layui-col-xs5">   <!-- 水泵参数 -->
+            <fieldset class="layui-elem-field">
+                <legend>1#水泵参数</legend>
+                <div class="layui-field-box">
+                    <div class="layui-form">
+                        <table class="layui-table">
+                            <thead>
+                            <tr>
+                                <th>参数</th>
+                                <th>值</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>上次工作时间</td>
+                                <td>2018/01/30 13:00-13:06</td>
+                            </tr>
+                            <tr>
+                                <td>累计工作时间</td>
+                                <td>
+                                    0小时06分钟
+                                    <input type="text" class="inp-fluid" id="pump_work1" placeholder="选择时间范围">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>上次检修时间</td>
+                                <td>2018/01/28 10:00 - 2018/01/28 17:00</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </fieldset>
+        </div>
+        <hr><!-- 分割线 -->
+        <div class="layui-col-xs7">
+            <fieldset class="layui-elem-field">
+                <legend>2#水泵启停图表</legend>
+                <div class="pump_status layui-field-box" id="pump_status2"><!-- 图表div -->
+                </div>
+            </fieldset>
+        </div>
+        <div class="layui-col-xs5">
+            <fieldset class="layui-elem-field">
+                <legend>2#水泵参数</legend>
+                <div class="layui-field-box">
+                    <div class="layui-form">
+                        <table class="layui-table">
+                            <thead>
+                            <tr>
+                                <th>参数</th>
+                                <th>值</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>上次工作时间</td>
+                                <td>2018/01/30 13:00-13:12</td>
+                            </tr>
+                            <tr>
+                                <td>累计工作时间</td>
+                                <td>
+                                    0小时12分钟
+                                    <input type="text" class="inp-fluid" id="pump_work2" placeholder="选择时间范围">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>上次检修时间</td>
+                                <td>2018/01/29 10:00 - 2018/01/29 17:00</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </fieldset>
+        </div>
+    </div>
+    <!-- 水阀模块（id用于按钮选择） -->
+    <div class="layui-row" id="data_valve">
+        <div class="layui-col-xs12">
+            <fieldset class="layui-elem-field">
+                <legend>水阀启停图表</legend>
+                <div class="valve_status layui-field-box" id="valve_status1"><!-- 图表div -->
+                </div>
+            </fieldset>
+        </div>
+    </div>
+</div>
+<script src="__LAYUI__/layui.js" charset="utf-8"></script>
+<script src="__PLUG__/jquery.js" charset="utf-8"></script>
+<script src="__PLUG__/echarts.min.js" charset="utf-8"></script>
+<script src="__PumpJS__/data_device.js" charset="utf-8"></script>
+<script>
+    layui.use('laydate', function () {
+        var laydate = layui.laydate; //时间日期选择器
+
+        laydate.render({    //1#水泵-参数表格(累计工作时间)
+            elem: '#pump_work1'
+            , type: 'datetime'  //日期时间范围
+            , range: true
+        });
+        laydate.render({    //2#水泵-参数表格(累计工作时间)
+            elem: '#pump_work2'
+            , type: 'datetime'  //日期时间范围
+            , range: true
+        });
+    });
+</script>
+</body>
+</html>

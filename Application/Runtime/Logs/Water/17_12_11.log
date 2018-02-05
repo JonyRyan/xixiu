@@ -1,0 +1,19 @@
+[ 2017-12-11T02:23:08+08:00 ] ::1 /ThinkPHP/index.php/Water/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011719s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: SHOW COLUMNS FROM `water_user` [ RunTime:1.2432s ]
+SQL: SELECT * FROM `water_user` WHERE `username` = '' AND `password` = ''  [ RunTime:0.1006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000977s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000977s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038086s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038086s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.013672s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013672s ]
+

@@ -1,0 +1,18 @@
+[ 2017-09-12T16:51:34+08:00 ] ::1 /ThinkPHP/ApplicationIotRouter/View/Public/images/zongheng.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001706s ]
+ERR: 无法加载模块:ApplicationIotRouter
+
+[ 2017-09-12T16:51:39+08:00 ] ::1 /ThinkPHP/ApplicationIotRouter/View/Public/images/zongheng.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000652s ]
+ERR: 无法加载模块:ApplicationIotRouter
+
+[ 2017-09-12T16:51:47+08:00 ] ::1 /ThinkPHP/ApplicationIotRouter/View/Public/images/zongheng.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006188s ]
+ERR: 无法加载模块:ApplicationIotRouter
+

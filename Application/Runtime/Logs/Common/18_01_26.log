@@ -1,0 +1,36 @@
+[ 2018-01-26T11:27:01+08:00 ] ::1 /Xixiu/Application/View/Public/layui/css/layui.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+ERR: 无法加载模块:Application
+
+[ 2018-01-26T11:27:01+08:00 ] ::1 /Xixiu/Application/View/Public/js/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+ERR: 无法加载模块:Application
+
+[ 2018-01-26T11:27:01+08:00 ] ::1 /Xixiu/Application/View/Public/css/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+ERR: 无法加载模块:Application
+
+[ 2018-01-26T11:27:01+08:00 ] ::1 /Xixiu/Application/View/Public/layui/layui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+ERR: 无法加载模块:Application
+
+[ 2018-01-26T11:27:06+08:00 ] ::1 /Xixiu/Application/View/Public/layui/css/layui.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+ERR: 无法加载模块:Application
+
+[ 2018-01-26T11:27:06+08:00 ] ::1 /Xixiu/Application/View/Public/css/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+ERR: 无法加载模块:Application
+

@@ -1,0 +1,10 @@
+/*设备数据——水泵启停图表div大小*/
+.pump_status{
+	width: 95%;
+	height: 197px;
+}
+/*设备数据——水阀启停图表div大小*/
+.valve_status{
+	width: 95%;
+	height: 400px;
+}

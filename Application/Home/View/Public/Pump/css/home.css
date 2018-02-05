@@ -1,0 +1,138 @@
+@charset "utf-8";
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    min-height: 100%;
+    /*background-color: rgba(0, 0, 0, .2);*/
+    /*   background: url(../img/pumpbg.png) 100% 100% no-repeat;
+       background-position: top center;
+       background-size: contain;*/
+    /*background-attachment: fixed;*/
+}
+
+/*div背景泵站流程图*/
+div.pumpbg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    min-height: 537px;
+    background: url(../img/pumpbg.png) 100% 100% no-repeat;
+    background-position: top center;
+    background-size: contain;
+}
+
+/*数据显示框(除水池)*/
+.dataframe {
+    width: 15%;
+    height: 44%;
+    background: rgba(0, 0, 0, .2);
+    /*box-shadow: 5px 5px 2px grey;*/
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /*text-align: center;*/
+    padding-top: 1%;
+    padding-left: 1%;
+}
+
+/*各数据标题样式&文本样式*/
+.data_head {
+    font-family: "幼圆";
+    font-size: 1.5em;
+    font-weight: bolder;
+    color: #00608b;
+}
+
+/*各数据文本样式*/
+.data_text {
+    font-family: "幼圆";
+    /*font-size: 1.1em;*/
+    font-weight: bolder;
+    color: #000080;
+}
+
+/*开关按钮样式*/
+/*.layui-form-switch {
+    height: 24px;
+    line-height: 24px;
+    width: 60px;
+    padding: 0 5px;
+    margin-top: 0px;
+}
+
+!*开关按钮字体样式*!
+.layui-form-switch em {
+    font-size: 18px;
+    width: 38px;
+}
+
+!*开关按钮小圆点默认样式（默认为关闭状态）*!
+.layui-form-switch i {
+    top: 4px;
+}
+
+!*开关按钮小圆点（状态：开）样式*!
+.layui-form-onswitch i {
+    left: 48px;
+    background-color: #fff;
+}*/
+
+/*开启自动控制后——代替开关按钮的——水阀/水泵状态*/
+#valve_status, #pump_status {
+    display: none;
+}
+
+/*水阀div位置*/
+.valve_data {
+    position: absolute;
+    top: 40%;
+    left: 16%;
+}
+
+/*水管div位置*/
+.tap_data {
+    position: absolute;
+    top: 40%;
+    left: 39%;
+}
+
+/*水泵div位置*/
+.pump_data {
+    position: absolute;
+    top: 40%;
+    left: 62%;
+}
+
+/*数据显示框（水池）*/
+.poolframe {
+    width: 14%;
+    height: 13%;
+    background: rgba(0, 0, 0, .3);
+    /*box-shadow: 5px 5px 2px grey;*/
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /*text-align: center;*/
+    padding-top: 1.5%;
+    padding-left: 1%;
+}
+
+/*水池（缓冲）div位置*/
+.pool1_data {
+    position: absolute;
+    top: 12%;
+    left: 8%;
+}
+
+.pool2_data {
+    position: absolute;
+    top: 3%;
+    left: 29%;
+}
+
+.pool3_data {
+    position: absolute;
+    top: 9.5%;
+    left: 80%;
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="__LAYUI__/css/layui.css">
+    <link rel="stylesheet" type="text/css" href="http://www.jq22.com/jquery/font-awesome.4.6.0.css">
+    <style>
+        .info-box {
+            height: 85px;
+            background-color: white;
+            background-color: #ecf0f5;
+        }
+
+        .info-box .info-box-icon {
+            border-top-left-radius: 2px;
+            border-top-right-radius: 0;
+            border-bottom-right-radius: 0;
+            border-bottom-left-radius: 2px;
+            display: block;
+            float: left;
+            height: 85px;
+            width: 85px;
+            text-align: center;
+            font-size: 45px;
+            line-height: 85px;
+            background: rgba(0, 0, 0, 0.2);
+        }
+
+        .info-box .info-box-content {
+            padding: 5px 10px;
+            margin-left: 85px;
+        }
+
+        .info-box .info-box-content .info-box-text {
+            display: block;
+            font-size: 14px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            text-transform: uppercase;
+        }
+
+        .info-box .info-box-content .info-box-number {
+            display: block;
+            font-weight: bold;
+            font-size: 20px;
+            margin-top: 10px;
+        }
+
+        .main {
+            margin-top: 5px;
+        }
+
+        .main .layui-row {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+
+<body>
+<div class="layui-fluid main">
+    <div class="layui-row layui-col-space15">
+        <div class="layui-col-md3">
+            <div class="info-box">
+                <span class="info-box-icon" style="background-color:#00c0ef !important;color:white;"><i
+                        class="fa fa-power-off" aria-hidden="true"></i></span>
+                <div class="info-box-content">
+                    <span class="info-box-text">设备启停状态</span>
+                    <span class="info-box-number">开启</span>
+                </div>
+            </div>
+        </div>
+        <div class="layui-col-md3">
+            <div class="info-box">
+                <span class="info-box-icon" style="background-color:#00a65a !important;color:white;"><i
+                        class="fa fa-feed" aria-hidden="true"></i></span>
+                <div class="info-box-content">
+                    <span class="info-box-text">实时报警次数</span>
+                    <span class="info-box-number" style="color: red">0</span>
+                </div>
+            </div>
+        </div>
+        <div class="layui-col-md3">
+            <div class="info-box">
+                <span class="info-box-icon" style="background-color:#f39c12 !important;color:white;"><i
+                        class="fa fa-film" aria-hidden="true"></i></span>
+                <div class="info-box-content">
+                    <span class="info-box-text">视频监控情况</span>
+                    <span class="info-box-number">运转正常</span>
+                </div>
+            </div>
+        </div>
+        <div class="layui-col-md3">
+            <div class="info-box">
+                <span class="info-box-icon" style="background-color:#dd4b39 !important;color:white;"><i
+                        class="fa fa-bar-chart" aria-hidden="true"></i></span>
+                <div class="info-box-content">
+                    <span class="info-box-text">工艺参数</span>
+                    <span class="info-box-number">6</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="layui-row">
+        <div class="layui-col-md12">
+            <div id="map"></div>
+        </div>
+    </div>
+</div>
+<script src="__PLUG__/jquery.js"></script>
+<script src="__LAYUI__/layui.js"></script>
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=ZUONbpqGBsYGXNIYHicvbAbM"></script>
+<script src="__ShuiJS__/map.js"></script>
+</body>
+
+</html>
